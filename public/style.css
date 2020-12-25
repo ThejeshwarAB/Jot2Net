@@ -1,0 +1,63 @@
+body{
+    background-color: azure;
+}
+
+p{
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+}
+
+h4{
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 0.015em;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+}
+
+h6{
+    font-size: 15px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+}
+
+textarea{
+    resize: none;
+}
+
+input[type="text"]{
+    outline: 0;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus
+{
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
