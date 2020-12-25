@@ -8,7 +8,9 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 // const { getMaxListeners } = require('process');
 
-app.listen("https://jot2net.herokuapp.com/",(err) =>{
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT,(err) =>{
     if(err)
     throw err;
     else
